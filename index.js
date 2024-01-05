@@ -8,12 +8,8 @@ function updateClock() {
     hour12: false,
   });
 
-  document.getElementById(
-    "amsterdamClock"
-  ).textContent = `Amsterdam: ${amsterdamTime}`;
-  document.getElementById(
-    "brisbaneClock"
-  ).textContent = `Brisbane: ${brisbaneTime}`;
+  document.getElementById("amsterdamClock").textContent = `${amsterdamTime}`;
+  document.getElementById("brisbaneClock").textContent = `${brisbaneTime}`;
 }
 
 function startClock() {

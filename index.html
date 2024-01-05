@@ -9,10 +9,26 @@
   <body>
     <div class="container">
       <div class="clock-container">
-        <div class="clock" id="amsterdamClock">Loading...</div>
-        <div class="clock" id="brisbaneClock">Loading...</div>
+        <div class="clock">
+          <ion-icon class="time-icon" name="moon"></ion-icon>
+          <div class="single-clock" id="amsterdamClock">Loading...</div>
+          <h5 class="city">AMSTERDAM</h5>
+        </div>
+        <div class="clock">
+          <ion-icon class="time-icon" name="sunny"></ion-icon>
+          <div class="single-clock" id="brisbaneClock">Loading...</div>
+          <h5 class="city">BRISBANE</h5>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
